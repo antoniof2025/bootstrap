@@ -1,0 +1,131 @@
+body{
+    background-color: grey;
+    color: white;
+}
+
+section nav div{
+    background-color: grey;
+    
+}
+
+div.carousel-item {
+    max-height: 500px;
+    overflow: hidden;
+    height: 400px; /* Altura fija para el carrusel */
+ }
+ 
+ div.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+
+.carousel-inner {
+    height: 400px; /* Asegura que el contenedor interno también tiene altura fija */
+ }
+
+.limites{
+    border-style:ridge;
+    border-radius: 15px;
+}
+
+.limites1{
+    border-style:ridge;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.distancia{
+    padding: 10px;
+}
+
+.card{
+    margin-left: 60px;
+}
+i.bi-fan{
+    color: black;
+    font-size: 45px;
+}
+i.bi-tools{
+    color: blue;
+    font-size: 45px;
+}
+i.bi-water{
+    color: rgb(46, 228, 125);
+    font-size: 45px;
+}
+i.bi-book-half{
+    color: rgb(235, 167, 10);
+    font-size: 45px;
+}
+i.bi-hourglass{
+    color: rgb(228, 18, 18);
+    font-size: 45px;
+}
+
+i.bi-discord{
+    color: blue;
+    font-size: 25px;
+}
+i.bi-facebook{
+    color: black;
+    font-size: 25px;
+}
+
+i.bi-whatsapp{
+    color: green;
+    font-size: 25px;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.accordion-body{
+    background-color: rgba(0, 0, 255, 0.521);
+    color:whitesmoke;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.accordion-button{
+    background-color: rgb(132, 101, 160);
+    color:whitesmoke;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #915353;
+    color:white;
+    font-style: oblique;
+    font-size:22px;
+}
+
+.contacto{
+    background-color: rgb(93, 147, 107);
+    font-style: oblique;
+}
+
+h4{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style:ridge;
+    border-top: 40px;
+    border-right: 10px;
+    border-left: 10px;
+    margin-right: 900px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+}
+
+.faqs{
+    padding-bottom: 50px;
+}
+
+section footer{
+    background-color:rgba(0, 0, 255, 0.368);
+    font-style: oblique;
+    padding: 10px;
+}
